@@ -16,7 +16,7 @@
 * Github: [swapfile3](@swapfile3)
 * LinkedIn: [Swajeet Swarnkar](https://www.linkedin.com/in/swajeet-swarnkar/)
 
-## Swajeet Swajeet
+## Tosan Krisna
 * Email: tosankrisna@gmail.com
 * Github: [tosankrisna](@tosankrisna)
 * LinkedIn: [Tosan Krisna](https://www.linkedin.com/in/tosankrisna/)
