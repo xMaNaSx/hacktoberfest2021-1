@@ -1,4 +1,3 @@
-// C++ implementation of the above approach
 #include <iostream>
 using namespace std;
 
@@ -35,4 +34,3 @@ int main()
 		cout << "No";
 	return 0;
 }
-// this code is written by vikkycirus
