@@ -14,6 +14,14 @@ app.get("/about", (req, res) => {
   res.status(201).send("<h3>This is about page</h3>");
 });
 
+app.get("/contact", (req, res) => {
+  res
+    .status(205)
+    .send(
+      "<h4>If you want to contact me then mail me on <a href>nisha123@gmail.com</a></h4>"
+    );
+});
+
 app.post("/", (req, res) => {
   // const name = req.body.name;
   // const address = req.body.address;
@@ -39,6 +47,16 @@ app.post("/about", (req, res) => {
     welcome_meessage: `welcome to about page ${name}, your registration number is ${registration}`,
   };
   res.status(201).json(response);
+});
+
+app.post("/contact", (req, res) => {
+  const { name, dob, number, feedback } = req.body;
+
+  const response = {
+    success: true,
+    welcome_message: "welcome to contact page",
+  };
+  res.status(205).json(response);
 });
 
 app.listen(port, () => {
