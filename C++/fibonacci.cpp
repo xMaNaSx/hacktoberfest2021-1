@@ -1,22 +1,16 @@
-#include<iostream>
-using namespace std;
-int main()
-{
-	int n,a,b,next,i;
-	
-	cout<<"Enter Number : ";
-	cin>>n;
-	
-	a = 0;
-	b = 1; 
-	next = 0;
-	
-	for(i=1; i<=n; i++)
-	{
-		cout<<next<<" ";
-		a = b;
-		b = next;
-		next = a+b;
-	}
-	
-}
+#include <iostream>  
+using namespace std;  
+int main() {  
+  int n1=0,n2=1,n3,i,number;    
+ cout<<"Enter the number of elements: ";    
+ cin>>number;    
+ cout<<n1<<" "<<n2<<" ";    
+ for(i=2;i<number;++i)     
+ {    
+  n3=n1+n2;    
+  cout<<n3<<" ";    
+  n1=n2;    
+  n2=n3;    
+ }    
+   return 0;  
+   }  
