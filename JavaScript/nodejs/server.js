@@ -22,6 +22,10 @@ app.get("/contact", (req, res) => {
     );
 });
 
+app.get("/help", (req, res) => {
+  res.status(200).send("<h3>This is help page</h3>");
+});
+
 app.post("/", (req, res) => {
   // const name = req.body.name;
   // const address = req.body.address;
