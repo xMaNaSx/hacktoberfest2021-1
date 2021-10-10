@@ -63,6 +63,14 @@ app.post("/contact", (req, res) => {
   res.status(205).json(response);
 });
 
+app.post("/help", (req, res) => {
+  const response = {
+    success: true,
+    welcome_message: "welcome to help page",
+  };
+  res.status(200).json(response);
+});
+
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
