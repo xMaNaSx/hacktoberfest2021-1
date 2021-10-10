@@ -54,11 +54,14 @@ app.post("/about", (req, res) => {
 });
 
 app.post("/contact", (req, res) => {
-  const { name, dob, number, feedback } = req.body;
+  const { name, dob, marks, number, feedback } = req.body;
+
+  const sum = `${marks}+${number}`;
 
   const response = {
     success: true,
     welcome_message: "welcome to contact page",
+    result: `the result is ${sum}`,
   };
   res.status(205).json(response);
 });
