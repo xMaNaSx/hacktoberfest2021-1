@@ -56,7 +56,7 @@ app.post("/about", (req, res) => {
 app.post("/contact", (req, res) => {
   const { name, dob, marks, number, feedback } = req.body;
 
-  const sum = `${marks}+${number}`;
+  const sum = `${marks + number}`;
 
   const response = {
     success: true,
