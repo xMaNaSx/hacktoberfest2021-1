@@ -20,3 +20,8 @@
 * Email: tosankrisna@gmail.com
 * Github: [tosankrisna](@tosankrisna)
 * LinkedIn: [Tosan Krisna](https://www.linkedin.com/in/tosankrisna/)
+
+## Siddhant Srivastava
+* Email: sidsrivastavasks@gmail.com
+* Github: [sidsrivastavasks](https://github.com/sidsrivastavasks)
+* LinkedIn: [Siddhant Srivastava](https://www.linkedin.com/in/siddhant-srivastava-bit/)
